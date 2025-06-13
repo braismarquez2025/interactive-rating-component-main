@@ -1,0 +1,24 @@
+body {
+    font-family: $font-primary;
+    margin: 30% 24px;
+    background-color: $grey-950;
+    display: flex;
+    justify-content: center;
+    
+    @include breakpoint(tablet) {
+        margin: 30% 180px;
+    }
+
+    @include breakpoint(tablethorizontal) {
+        margin: 30% 310px;
+    }
+
+    @include breakpoint(desktopxl) {
+        margin: 30% 514px;
+    }
+}
+
+* {
+    margin: 0;  
+    padding: 0;
+}
