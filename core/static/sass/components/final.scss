@@ -1,0 +1,37 @@
+.contenedor {
+    background: $gradient;
+    padding: 28px 24px;
+    border-radius: 15px;
+    max-width: 412px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    .mensaje {
+        color: $orange-500;
+        padding: 6px 12px;
+        background-color: $grey-900;
+        border-radius: 25px;
+    }
+
+
+    .contenido {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+
+        h1 {
+            color: white;
+        }
+
+        p {
+            color: $grey-500;
+            max-width: 300px;
+        }
+    }
+
+}

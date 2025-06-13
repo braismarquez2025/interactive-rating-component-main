@@ -1,0 +1,80 @@
+$bp-tablet: 768px;
+$bp-tablet-horizontal: 1024px;
+$bp-desktop: 1220px;
+$bp-desktop-xl: 1440px;
+
+
+
+$roboto-font: 'Roboto', sans-serif; 
+
+
+// Colors
+$grey-950: #131518;
+$grey-900: #262E38;
+$grey-500: #969FAD;
+
+$orange-500: #FC7614;
+
+$gradient: linear-gradient(90deg,rgba(35, 42, 52, 1) 0%, rgba(24, 30, 39, 1) 50%);
+
+//Fonts
+$font-primary: "Overpass", sans-serif;
+
+
+// Text-presets
+.text-preset-1 {
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+.text-preset-2 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+.text-preset-3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+
+.text-preset-4-bold {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+.text-preset-4-regular {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.text-preset-5-bold {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.87px;
+    font-weight: 700;
+}
+
+.text-preset-5-semibold {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.17px;
+    font-weight: 600;
+}
+
+.text-preset-5-regular {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    font-weight: 400;
+}

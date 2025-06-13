@@ -1,0 +1,28 @@
+{% include "layout.html" %}
+
+{% load static %}
+
+{% block content %}
+<section class="thanks">
+    <div class="contenedor">
+        <figure class="imagen">
+          <img src="{% static 'images/illustration-thank-you.svg' %}" alt="icono de agradecimiento">
+        </figure>
+    
+        
+        <article class="mensaje">
+            <p class="mensaje_texto text-preset-5-regular" id="num">You selected <span></span> out of 5</p>
+        </article>
+
+        <article class="contenido">
+          <h1 class="contenido_title text-preset-2">Thank you!</h1>
+          <p class="contenido_subtitle text-preset-5-regular">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </article>
+    
+      </div>
+    </section>
+
+
+  
+
+{% endblock %}
